@@ -1,0 +1,262 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .nav-item a {
+        font-weight: 500;
+        padding: 0 .5rem;
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    .btnl {
+        padding: 0;
+        border: none;
+        background-color: #fff;
+        margin-top: 0;
+    }
+    /* .navbar-nav>li{
+        margin-left: .5px;
+        margin-right: .5px;
+    } */
+    /* .navbar-toggler {
+        background-color: darkblue;
+        color: red;
+    } */
+    /* ++++++++++++++++++++++++++++++ main section ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    
+    .backgroundfirst {
+        box-sizing: border-box;
+        /* position: fixed; */
+    }
+    
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-overflow: hidden;
+    }
+    
+    .firsthalf {
+        margin-top: 8rem;
+        margin-left: 8.5rem;
+        position: relative;
+        /* position: absolute; */
+    }
+    
+    .p1 {
+        margin: 0;
+        padding: 0;
+        font-size: 3rem;
+        text-align: right;
+        font-weight: bold;
+        /* position: absolute; */
+    }
+    
+    .secondhalf {
+        margin: 0;
+        position: relative;
+    }
+    
+    .img {
+        margin-left: 0;
+        height: 38rem;
+        width: 62rem;
+    }
+    
+    .btn1 {
+        margin-top: 6rem;
+    }
+    /* secondpart start */
+    
+    .secfirst {
+        margin-top: 3rem;
+    }
+    
+    .img2 {
+        height: fit-content;
+        width: fit-content;
+    }
+    /* secondpart end */
+    /* thirdpart start */
+    
+    .thfirst {
+        margin: 4rem 0;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        font-size: 1.5rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .img3 {
+        height: 18rem;
+        width: 22rem;
+    }
+    /* thirdpart end */
+    /* ==============================================footersection start ================================*/
+    
+    .bcolor {
+        background-color: #062081;
+        height: 71vh;
+        width: 100vw;
+        /* clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 44% 85%, 47% 87%, 49% 89%, 51% 100%, 60% 100%, 60% 79%, 58% 77%, 56% 75%, 54% 73%, 0% 85%, 0% 0%); */
+    }
+    
+    svg {
+        border: none;
+        width: 101.4vw;
+        height: auto;
+        margin-top: -6.9rem;
+        margin-left: -2rem;
+    }
+    
+    .fsec .nav-item a {
+        margin-top: 9rem;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    
+    .fp {
+        color: #fff;
+        text-align: center;
+        justify-content: center;
+        margin: 0 12rem;
+    }
+    /* footerbox */
+    
+    .bottombox {
+        padding: 0;
+        height: 2vh;
+        margin-top: -2.4rem;
+        margin-left: .5rem;
+        width: 92.9vw;
+    }
+    
+    .fimg {
+        margin-top: 5rem;
+        margin-left: 27rem;
+    }
+    
+    .fimg img {
+        height: 10vh;
+        width: 4vw;
+    }
+    /* footersection end */
+    /*========================================= responsive css ============================================*/
+    
+    @media only screen and (max-width: 812px) {
+        /* for first div */
+        .navbar-nav {
+            text-align: center;
+        }
+        .firsthalf {
+            margin-top: 2rem;
+            margin-left: 1rem;
+            padding: 0;
+        }
+        .conainer.secondhalf {
+            padding: 0;
+            margin: 0;
+        }
+        .p1 {
+            margin: .5rem 0;
+            font-size: 1rem;
+            width: 100%;
+            margin-right: -2rem;
+        }
+        .img {
+            margin: .5rem;
+            padding: 0;
+            height: 11rem;
+            width: 10rem;
+        }
+        .btn1 {
+            padding: 0;
+            margin: 0;
+            size: small;
+            font-size: .8rem;
+        }
+        /* secondpart */
+        .img2 {
+            margin: 0rem;
+            padding: 0;
+            width: 22rem;
+        }
+        /* thirdpart */
+        .thfirst {
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            text-align: justify;
+            font-size: .65rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 12rem;
+        }
+        .img3 {
+            height: 8rem;
+            width: 10rem;
+            margin-top: 2rem;
+        }
+        /* footersection */
+        .bcolor {
+            background-color: #062081;
+            height: 20rem;
+            width: 22.55rem;
+        }
+        .foot1.navbar-nav {
+            margin-top: 1rem;
+        }
+        .fsec .nav-item a {
+            width: 6rem!important;
+            margin: 0;
+            color: rgb(249, 245, 245);
+            font-size: .5rem;
+            display: inline;
+        }
+        .fp {
+            color: #fff;
+            text-align: center;
+            justify-content: center;
+            margin: 2rem;
+            margin-top: 0rem;
+            font-size: .7rem;
+        }
+        /* footerbox */
+        .bottombox {
+            height: 2vh;
+            margin-top: 2.3rem;
+        }
+        .fimg {
+            flex-direction: row;
+            margin-top: -2.2rem;
+            margin-left: 4.5rem;
+        }
+        .fimg img {
+            height: 3vh;
+            width: 4vw;
+            margin: -.4rem;
+        }
+        svg {
+            border: none;
+            width: 101.4vw;
+            height: auto;
+            margin-top: -6.4rem;
+            margin-left: -2rem;
+        }
+        .foot1 {
+            width: 4rem;
+            margin: 0;
+        }
+        .fsec {
+            flex-direction: row;
+            width: 2rem;
+            padding-top: 5rem;
+        }
+        .fsec .nav-item a {
+            font-size: .7rem;
+            margin: 1rem;
+        }
+    }
